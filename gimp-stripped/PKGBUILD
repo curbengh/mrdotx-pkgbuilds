@@ -17,6 +17,7 @@ makedepends=(
     'iso-codes'
     'glib-networking'
     'glib2-devel'
+    'libxslt'
 )
 depends=(
     # core deps
@@ -58,7 +59,7 @@ depends=(
     # 'libxcursor'
     # 'libxext'
     # 'libxfixes'
-    # 'libxmu'
+    'libxmu'
     # 'libxpm'
     # 'openexr'
     # 'openjpeg2'
